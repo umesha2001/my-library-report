@@ -1,0 +1,17 @@
+# Power BI temporary files
+*.pbix.tmp
+
+# Backup files
+*~
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Sensitive data (if any)
+*.xlsx
+*.csv
+data/
+!data/sample-data.xlsx
