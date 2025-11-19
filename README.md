@@ -1,16 +1,18 @@
-# My Library Report ??
+# My Library Report
 
-A comprehensive Power BI dashboard for tracking and managing school library book loans at Contoso High School. This interactive report provides real-time insights into loan statuses, student borrowing patterns, and overdue items.
+A Power BI dashboard for tracking and managing school library book loans at Contoso High School.
 
-## ?? Features
+## ğŸ“Š Features
 
-- **Current Loans Overview**: Monitor all active loans with filtering capabilities
-- **Overdue Tracking**: Identify and manage overdue items with customizable day ranges
-- **Student Analytics**: Comprehensive view of borrowing patterns by student
-- **Interactive Filters**: Advanced filtering by date, student name, and loan status
-- **Key Performance Metrics**: Total loans, overdue tracking, YoY comparison, and trends
+- **Current Loans Overview**: Track active loans and overdue items
+- **Student Review**: Analyze borrowing patterns by student
+- **Interactive Filters**: Filter by date, student name, and overdue status
+- **Key Metrics**: 
+  - Total loans and overdue loans
+  - Days overdue tracking
+  - Year-over-year comparison
 
-## ??? Screenshots
+## ğŸ–¼ï¸ Screenshots
 
 ### Home Page
 ![Home Page](screenshots/home-page.png)
@@ -18,48 +20,94 @@ A comprehensive Power BI dashboard for tracking and managing school library book
 ### Current Loans Dashboard
 ![Current Loans](screenshots/current-loans.png)
 
-### Advanced Filters
-![Filters](screenshots/filters.png)
-
 ### Student Review Analytics
 ![Student Review](screenshots/student-review.png)
 
-## ?? Getting Started
+## ğŸš€ Getting Started
 
 ### Prerequisites
-- Power BI Desktop
-- Windows 10 or later
+- Power BI Desktop (latest version)
+- Access to the library database
 
 ### Installation
 
 1. Clone this repository:
-   ```bash
+```bash
    git clone https://github.com/umesha2001/my-library-report.git
-   ```
+```
 
-2. Open the report from the `reports` folder
+2. Open the `.pbix` file in Power BI Desktop:
+```
+   reports/library-report.pbix
+```
 
-## ?? Project Structure
+3. Refresh data sources as needed
 
+## ğŸ“ Project Structure
 ```
 my-library-report/
-ÃÄÄ README.md
-ÃÄÄ reports/
-³   ÀÄÄ library-report.pbix
-ÃÄÄ screenshots/
-ÀÄÄ documentation/
-    ÀÄÄ user-guide.md
+â”œâ”€â”€ reports/          # Power BI report files
+â”œâ”€â”€ screenshots/      # Dashboard screenshots
+â””â”€â”€ documentation/   # Additional documentation
 ```
 
-## ?? Documentation
+## ğŸ”§ Configuration
 
-For detailed usage instructions, see the [User Guide](documentation/user-guide.md).
+### Data Source Connection
+1. Open Power BI Desktop
+2. Go to Transform Data > Data Source Settings
+3. Update the connection string to your database
 
-## ?? Author
+### Refresh Schedule
+- The report is configured to refresh daily at 6:00 AM
+- Manual refresh can be triggered from Power BI Service
+
+## ğŸ“ˆ Report Pages
+
+1. **Home**: Navigation hub with quick access to all reports
+2. **Current Loans**: Real-time view of active loans
+3. **Student Review**: Detailed student borrowing analytics
+4. **Report Filters**: Advanced filtering capabilities
+
+## ğŸ¤ Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## ğŸ“ License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## ğŸ‘¤ Author
 
 **Umesha**
 - GitHub: [@umesha2001](https://github.com/umesha2001)
 
-## ?? License
+## ğŸ™ Acknowledgments
 
-This project is licensed under the MIT License.
+- Contoso High School Library Team
+- Power BI Community
+
+## ğŸ“ Support
+
+For support, email your-email@example.com or open an issue in this repository.
+
+---
+
+**Note**: This report contains sample data for demonstration purposes.
+```
+
+### 3. **Add a .gitignore File**
+
+Create a `.gitignore` file to exclude unnecessary files:
+```
+# Power BI
+*.pbix.tmp
+
+
+
